@@ -57,3 +57,7 @@ npm run build
 ```
 
 環境変数の例は `backend/.env.example` と `frontend/.env.example` を参照してください。
+
+## FrontendのS3デプロイ
+
+PRを `main` にマージした後に `frontend/dist/` をS3へアップロードするGitHub Actionsのサンプルを追加しています。設定方法は [デプロイ手順](docs/frontend-deploy.md) を参照してください。
